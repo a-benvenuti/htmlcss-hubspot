@@ -130,6 +130,13 @@ body{
 }
 /* --------------------------/HEADER------------------------ */
 /* --------------------------MAIN------------------------ */
+/* CLEARFIX */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* /CLEARFIX */
 main{
   color: #33475b;
 }
@@ -155,4 +162,44 @@ main{
 .centrato p{
   margin-bottom: 30px;
 }
+/* ------------------------------- */
+.cella-uno{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px  grey;
+}
+.parte1{
+  float: left;
+  width: calc(30% - 140px);
+  display: inline-block;
+  margin: 40px 70px;
+}
+.parte2{
+  float: left;
+  width: calc(70% - 140px);
+  display: inline-block;
+  margin: 40px 70px;
+}
+.btm-learn{
+  margin-top: 20px;
+  text-align: center;
+}
+.parte2 h3{
+  font-size: 24px;
+}
+.parte2 h3, .parte2 h4, .parte2 p{
+  margin-bottom: 30px;
+  max-width: 70%;
+}
+.parte2 li{
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.parte2 i{
+  margin-right: 15px;
+  color: #ff7a59;
+}
+/* ------------------------------- */
+
 /* --------------------------/MAIN------------------------ */

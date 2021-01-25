@@ -13,6 +13,11 @@ body{
   width: 75%;
   margin: auto;
 }
+.central-2{
+  width: 75%;
+  margin: auto;
+  position: relative;
+}
 #lens{
   color: #2ecddf;
 }
@@ -35,6 +40,15 @@ body{
   color: white;
   border: 2px solid #ff7a59;
 }
+.grosso{
+  text-decoration: none;
+  padding: 20px;
+  background-color: #ff7a59;
+  color: white;
+}
+.hr-spesso{
+  border: 2px solid #33475b;
+}
 /* --------------------------/MIX------------------------ */
 /* --------------------------HEADER------------------------ */
 header{
@@ -56,11 +70,15 @@ header{
   display: inline-block;
   text-decoration: none;
   color: #33475b;
+  font-size: 12px;
+  font-weight: 500;
 }
 .account li, .account a{
   display: inline-block;
   text-decoration: none;
   margin-left: 15px;
+  font-size: 12px;
+  font-weight: 500;
 }
 /* ------------------------------- */
 .menu{
@@ -79,6 +97,8 @@ header{
   display: inline-block;
   text-decoration: none;
   color: #33475b;
+  font-size: 12px;
+  font-weight: 500;
 }
 .info i{
   margin-left: 5px;
@@ -87,5 +107,35 @@ header{
    margin-left:10px;
  }
  /* ------------------------------- */
- 
+ .principale{
+   height: 550px;
+   background-image: url("../img/jumbotron.png");
+   background-size: contain;
+   background-position:100%;
+   background-repeat: no-repeat;
+ }
+ .contenuto{
+   max-width: 45%;
+   position: absolute;
+   top: 55px;
+   color: #33475b;
+ }
+ .contenuto h1{
+   font-size: 40px;
+   font-weight: 700;
+ }
+ .contenuto p{
+   margin: 20px 0;
+   font-size: 12px;
+   font-weight: 500;
+ }
+ .contenuto a{
+   font-size: 12px;
+   font-weight: 500;
+ }
+ /* ------------------------------- */
+.separatore{
+  height: 80px;
+  background-color: #75dfcc;
+}
 /* --------------------------/HEADER------------------------ */

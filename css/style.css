@@ -7,6 +7,7 @@
 /* /Reset */
 body{
   font-family: 'Montserrat', sans-serif;
+  background-color: #f5f8fa;
 }
 /* --------------------------MIX------------------------ */
 .central{
@@ -110,7 +111,7 @@ header{
  .principale{
    height: 550px;
    background-image: url("../img/jumbotron.png");
-   background-size: contain;
+   background-size: cover;
    background-position:100%;
    background-repeat: no-repeat;
  }
@@ -139,3 +140,33 @@ header{
   background-color: #75dfcc;
 }
 /* --------------------------/HEADER------------------------ */
+/* --------------------------MAIN------------------------ */
+main{
+  color: #33475b;
+}
+.central .cubo{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 230px;
+  display: block;
+}
+.centrato{
+  max-width: 65%;
+  margin: auto;
+  text-align: center;
+}
+.centrato-img{
+  width: 45%;
+  margin: auto;
+}
+.centrato h2{
+ font-size: 30px;
+ margin-bottom: 30px;
+}
+.centrato p{
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 30px;
+
+}
+/* --------------------------/MAIN------------------------ */

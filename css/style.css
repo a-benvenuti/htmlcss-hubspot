@@ -50,11 +50,12 @@ body{
 .hr-spesso{
   border: 2px solid #33475b;
 }
+.setup-paragrafo{
+  font-size: 12px;
+  font-weight: 500;
+}
 /* --------------------------/MIX------------------------ */
 /* --------------------------HEADER------------------------ */
-header{
-  background-color: #f5f8fa;
-}
 .config{
   display: inline-block;
   margin: 18px 0;
@@ -71,15 +72,11 @@ header{
   display: inline-block;
   text-decoration: none;
   color: #33475b;
-  font-size: 12px;
-  font-weight: 500;
 }
 .account li, .account a{
   display: inline-block;
   text-decoration: none;
   margin-left: 15px;
-  font-size: 12px;
-  font-weight: 500;
 }
 /* ------------------------------- */
 .menu{
@@ -98,8 +95,6 @@ header{
   display: inline-block;
   text-decoration: none;
   color: #33475b;
-  font-size: 12px;
-  font-weight: 500;
 }
 .info i{
   margin-left: 5px;
@@ -127,12 +122,6 @@ header{
  }
  .contenuto p{
    margin: 20px 0;
-   font-size: 12px;
-   font-weight: 500;
- }
- .contenuto a{
-   font-size: 12px;
-   font-weight: 500;
  }
  /* ------------------------------- */
 .separatore{
@@ -164,9 +153,6 @@ main{
  margin-bottom: 30px;
 }
 .centrato p{
-  font-size: 12px;
-  font-weight: 500;
   margin-bottom: 30px;
-
 }
 /* --------------------------/MAIN------------------------ */

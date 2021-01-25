@@ -9,6 +9,10 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 /* --------------------------MIX------------------------ */
+.central{
+  width: 75%;
+  margin: auto;
+}
 #lens{
   color: #2ecddf;
 }
@@ -36,13 +40,9 @@ body{
 header{
   background-color: #f5f8fa;
 }
-header .login{
-  width: 75%;
-  margin: auto;
-}
 .config{
   display: inline-block;
-  margin: 25px 0;
+  margin: 18px 0;
 }
 .setup{
   width:calc(60% - 15px);
@@ -60,7 +60,32 @@ header .login{
 .account li, .account a{
   display: inline-block;
   text-decoration: none;
-  margin-right: 15px;
+  margin-left: 15px;
 }
-
+/* ------------------------------- */
+.menu{
+  background-color: white;
+}
+.logo{
+  width: 10%;
+  vertical-align: middle;
+}
+.info{
+  width: 87%;
+  text-align: right;
+  vertical-align: middle;
+}
+.info li, .info a{
+  display: inline-block;
+  text-decoration: none;
+  color: #33475b;
+}
+.info i{
+  margin-left: 5px;
+}
+ .info a{
+   margin-left:10px;
+ }
+ /* ------------------------------- */
+ 
 /* --------------------------/HEADER------------------------ */

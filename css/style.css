@@ -5,3 +5,62 @@
   box-sizing: border-box;
 }
 /* /Reset */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/* --------------------------MIX------------------------ */
+#lens{
+  color: #2ecddf;
+}
+#divisorio{
+  margin: 0 8px;
+}
+.pulsante{
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+.vuoto{
+  background-color: white;
+  color: #ff7a59;
+  border: 2px solid #ff7a59;
+}
+.pieno{
+  background-color: #ff7a59;
+  color: white;
+  border: 2px solid #ff7a59;
+}
+/* --------------------------/MIX------------------------ */
+/* --------------------------HEADER------------------------ */
+header{
+  background-color: #f5f8fa;
+}
+header .login{
+  width: 75%;
+  margin: auto;
+}
+.config{
+  display: inline-block;
+  margin: 25px 0;
+}
+.setup{
+  width:calc(60% - 15px);
+  text-align:left;
+}
+.account{
+  width:calc(40% - 15px);
+  text-align: right;
+}
+.setup li, .setup a {
+  display: inline-block;
+  text-decoration: none;
+  color: #33475b;
+}
+.account li, .account a{
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+/* --------------------------/HEADER------------------------ */

@@ -123,7 +123,7 @@ h5{
    background-repeat: no-repeat;
    position: relative;
  }
- .contenuto-banner{
+ .principale .central .contenuto-banner{
    max-width: 40%;
    position: absolute;
    top: 55px;
@@ -132,7 +132,7 @@ h5{
    font-size: 50px;
    font-weight: 700;
  }
- .contenuto-banner p{
+ .contenuto-banner p, .cella-tre .colonna-sx p{
    margin: 20px 0;
  }
  /* -----------/principale----------- */
@@ -280,7 +280,7 @@ h5{
 }
 /* -----------------/cella gradiente------------- */
 /* ------------cella partners---------- */
-.cella-partners{
+.cella-partners, .cella-tre{
   background-color: white;
   padding: 50px 0;
 }
@@ -318,4 +318,27 @@ h5{
   margin-bottom: 30px;
 }
 /* ------------/cella partners---------- */
+/* ------------cella-tre---------- */
+.cella-tre .colonna-sx{
+  float: left;
+  width: 70%;
+  margin-top: 50px;
+  display: inline-block;
+}
+.cella-tre .colonna-dx{
+  float: left;
+  width: 30%;
+  display: inline-block;
+}
+.cella-tre .colonna-sx h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+.cella-tre .colonna-dx img{
+  max-width: 100%;
+}
+.cella-tre .colonna-sx h2, .cella-tre .colonna-sx p, .cella-tre .colonna-sx a{
+  max-width: 70%;
+}
+/* ------------/cella-tre---------- */
 /* --------------------------/MAIN------------------------ */

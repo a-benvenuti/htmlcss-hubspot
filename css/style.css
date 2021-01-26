@@ -69,6 +69,7 @@ h5{
 /* -------/divosori vari------- */
 /* --------------------------/MIX------------------------ */
 /* --------------------------HEADER------------------------ */
+/* -------------home------------ */
 .config{
   display: inline-block;
   margin: 18px 0;
@@ -91,7 +92,8 @@ h5{
   text-decoration: none;
   margin-left: 15px;
 }
-/* ------------------------------- */
+/* -------------/home------------ */
+/* -------------menu------------- */
 .menu{
   background-color: white;
 }
@@ -110,7 +112,8 @@ h5{
  .info a{
    margin-left:10px;
  }
- /* ------------------------------- */
+ /* -------------/menu------------- */
+ /* -----------principale----------- */
  .principale{
    height: 550px;
    background-color: #fff3ee;
@@ -132,11 +135,13 @@ h5{
  .contenuto-banner p{
    margin: 20px 0;
  }
- /* ------------------------------- */
+ /* -----------/principale----------- */
+ /* -----------separatore---------- */
 .separatore{
   height: 80px;
   background-color: #75dfcc;
 }
+/* -----------/separatore---------- */
 /* --------------------------/HEADER------------------------ */
 /* --------------------------MAIN------------------------ */
 /* CLEARFIX */
@@ -146,6 +151,7 @@ h5{
   clear: both;
 }
 /* /CLEARFIX */
+/* -----------cella zero------------- */
 .centrato{
   max-width: 65%;
   margin: auto;
@@ -163,7 +169,8 @@ h5{
 .centrato p{
   margin-bottom: 30px;
 }
-/* ------------------------------- */
+/* -----------/cella zero------------- */
+/* -----------/cella uno---------- */
 .cella-uno{
   background-color: white;
   border-radius: 10px;
@@ -203,7 +210,8 @@ h5{
   margin-right: 15px;
   color: #ff7a59;
 }
-/* ------------------------------- */
+/* -----------/cella uno---------- */
+/* ------------cella due---------- */
 .cella-due{
   padding: 50px 0;
 }
@@ -235,7 +243,8 @@ h5{
   margin-right: 15px;
   color: #ff7a59;
 }
-/* ------------------------------- */
+/* ------------cella due---------- */
+/* ----------------cella gradiente--------------- */
 .cella-gradiente{
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   padding: 50px 0;
@@ -269,7 +278,44 @@ h5{
   vertical-align: middle;
   font-size: 30px;
 }
-/* ------------------------------- */
-
-
+/* -----------------/cella gradiente------------- */
+/* ------------cella partners---------- */
+.cella-partners{
+  background-color: white;
+  padding: 50px 0;
+}
+.cella-partners .col-uno{
+  float: left;
+  width: calc(30% - 120px);
+  display: inline-block;
+  margin: 0 60px;
+}
+.cella-partners .col-uno h2{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.cella-partners .col-uno li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+.cella-partners .col-due{
+  float: left;
+  width: 70%;
+  display: inline-block;
+  text-align: center;
+}
+.tabella-partners .box{
+  width: calc(25% - 20px);
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.tabella-partners .box img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+.tabella-partners .riga1p{
+  margin-bottom: 30px;
+}
+/* ------------/cella partners---------- */
 /* --------------------------/MAIN------------------------ */

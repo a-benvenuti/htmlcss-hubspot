@@ -19,6 +19,9 @@ h3{
 h4{
   font-size: 18px;
 }
+h5{
+  font-size: 12px;
+}
 .central{
   width: 75%;
   margin: auto;
@@ -164,7 +167,7 @@ h4{
 .cella-uno{
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 0 3px  grey;
+  box-shadow: 0 0 3px  lightgrey;
   padding: 70px;
 }
 .col1{
@@ -236,12 +239,37 @@ h4{
 .cella-gradiente{
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   padding: 50px 0;
+  color: white;
 }
 .cella-gradiente .central{
   text-align: center;
-  color: white;
 }
 .cella-gradiente .central p{
   margin: 30px 0;
 }
+.tabella .box{
+  width: 25%;
+  display: inline-block;
+  padding: 25px 0;
+}
+/*relativi alla griglia della "tabella" */
+.tabella .one, .tabella .two, .tabella .three{
+  border-right: 1px solid white;
+}
+.tabella .riga1{
+  border-bottom: 1px solid white;
+}
+/*/relativi alla griglia della "tabella" */
+.box h2{
+  margin: 15px 0;
+  font-size: 50px;
+  vertical-align: middle;
+}
+.box h2 .plus{
+  vertical-align: middle;
+  font-size: 30px;
+}
+/* ------------------------------- */
+
+
 /* --------------------------/MAIN------------------------ */

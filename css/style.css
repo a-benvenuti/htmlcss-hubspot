@@ -25,6 +25,12 @@ body{
 #divisorio{
   margin: 0 8px;
 }
+#hr-in{
+  display: inline-block;
+  width: 440px;
+  vertical-align: middle;
+
+}
 .pulsante{
   display: inline-block;
   border-radius: 5px;
@@ -53,6 +59,11 @@ body{
 .setup-paragrafo{
   font-size: 12px;
   font-weight: 500;
+}
+.special-hr{
+  /* border: 1px solid grey; */
+  max-width: 90%;
+  margin: auto;
 }
 /* --------------------------/MIX------------------------ */
 /* --------------------------HEADER------------------------ */
@@ -105,9 +116,12 @@ body{
  /* ------------------------------- */
  .principale{
    height: 550px;
+   background-color: #fff3ee;
    background-image: url("../img/jumbotron.png");
+   /* background-size: contain; */
    background-size: cover;
-   background-position:100%;
+   /* background-position: right; */
+   background-position: 100%;
    background-repeat: no-repeat;
  }
  .contenuto{
@@ -187,19 +201,54 @@ main{
 .parte2 h3{
   font-size: 24px;
 }
-.parte2 h3, .parte2 h4, .parte2 p{
+.parte2 h3, .parte2 p{
   margin-bottom: 30px;
   max-width: 70%;
+}
+.parte2 h4{
+  display: inline-block;
+  vertical-align: middle;
 }
 .parte2 li{
   display: inline-block;
   text-decoration: none;
   margin-right: 15px;
+  margin-top: 30px;
 }
 .parte2 i{
   margin-right: 15px;
   color: #ff7a59;
 }
 /* ------------------------------- */
+.cella-due{
+  padding: 50px 0;
+}
+.col-sx, .col-dx, .col-cen {
+  float: left;
+  width: calc(90% / 3 );
+  display: inline-block;
+  text-align:center; /*viene ereditato anche da h4 e p */
+  padding: 20px;
+}
+.col-cen{
+  margin: 0 5%;
+}
+.col-sx img, .col-dx img, .col-cen img{
+  margin: auto;
+  height: 120px;
+  object-fit: contain;
+}
+.cella-due img, .cella-due h3, .cella-due h4, .cella-due p, .cella-due .special-hr{
+  margin-bottom: 20px;
+}
+.cella-due  li{
+  text-align: left;
+  text-decoration: none;
+}
+.cella-due  i{
+  margin-right: 15px;
+  color: #ff7a59;
+  /* ------------------------------- */
 
+}
 /* --------------------------/MAIN------------------------ */

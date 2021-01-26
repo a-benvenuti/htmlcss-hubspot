@@ -7,71 +7,70 @@
 /* /Reset */
 body{
   font-family: 'Montserrat', sans-serif;
+  color: #33475b;
   background-color: #f5f8fa;
+  font-size: 14px;
+  font-weight: 500;
 }
 /* --------------------------MIX------------------------ */
+h3{
+  font-size: 26px;
+}
+h4{
+  font-size: 18px;
+}
 .central{
   width: 75%;
   margin: auto;
 }
-.central-2{
-  width: 75%;
-  margin: auto;
-  position: relative;
-}
 #lens{
   color: #2ecddf;
 }
-#divisorio{
-  margin: 0 8px;
-}
-#hr-in{
-  display: inline-block;
-  width: 440px;
-  vertical-align: middle;
-
-}
+/* -------relativi ai buttons------- */
 .pulsante{
   display: inline-block;
   border-radius: 5px;
   text-align: center;
   padding: 10px;
+  border: 2px solid #ff7a59;
 }
 .vuoto{
   background-color: white;
   color: #ff7a59;
-  border: 2px solid #ff7a59;
 }
 .pieno{
   background-color: #ff7a59;
   color: white;
-  border: 2px solid #ff7a59;
 }
 .grosso{
   text-decoration: none;
-  padding: 20px;
-  background-color: #ff7a59;
-  color: white;
+  padding: 20px 32px;
+}
+/* -------/ relativi ai buttons------- */
+/* -------divosori vari------- */
+#divisorio{
+  margin: 0 8px;
+}
+#hr-in{
+  display: inline-block;
+  width:calc(70% - 40px);
+  vertical-align: middle;
 }
 .hr-spesso{
   border: 2px solid #33475b;
 }
-.setup-paragrafo{
-  font-size: 12px;
-  font-weight: 500;
-}
 .special-hr{
-  /* border: 1px solid grey; */
   max-width: 90%;
   margin: auto;
 }
+/* -------/divosori vari------- */
 /* --------------------------/MIX------------------------ */
 /* --------------------------HEADER------------------------ */
 .config{
   display: inline-block;
   margin: 18px 0;
 }
-.setup{
+.setup-pagina{
   width:calc(60% - 15px);
   text-align:left;
 }
@@ -79,7 +78,7 @@ body{
   width:calc(40% - 15px);
   text-align: right;
 }
-.setup li, .setup a {
+.setup-pagina li, .setup-pagina a, .info li, .info a{
   display: inline-block;
   text-decoration: none;
   color: #33475b;
@@ -102,11 +101,6 @@ body{
   text-align: right;
   vertical-align: middle;
 }
-.info li, .info a{
-  display: inline-block;
-  text-decoration: none;
-  color: #33475b;
-}
 .info i{
   margin-left: 5px;
 }
@@ -118,23 +112,21 @@ body{
    height: 550px;
    background-color: #fff3ee;
    background-image: url("../img/jumbotron.png");
-   /* background-size: contain; */
    background-size: cover;
-   /* background-position: right; */
    background-position: 100%;
    background-repeat: no-repeat;
+   position: relative;
  }
- .contenuto{
-   max-width: 45%;
+ .contenuto-banner{
+   max-width: 40%;
    position: absolute;
    top: 55px;
-   color: #33475b;
  }
- .contenuto h1{
-   font-size: 40px;
+ .contenuto-banner h1{
+   font-size: 50px;
    font-weight: 700;
  }
- .contenuto p{
+ .contenuto-banner p{
    margin: 20px 0;
  }
  /* ------------------------------- */
@@ -151,26 +143,18 @@ body{
   clear: both;
 }
 /* /CLEARFIX */
-main{
-  color: #33475b;
-}
-.central .cubo{
-  margin-top: 50px;
-  margin-bottom: 10px;
-  height: 230px;
-  display: block;
-}
 .centrato{
   max-width: 65%;
   margin: auto;
   text-align: center;
 }
-.centrato-img{
-  width: 45%;
-  margin: auto;
+.centrato .cubo{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 230px;
 }
 .centrato h2{
- font-size: 30px;
+ font-size: 40px;
  margin-bottom: 30px;
 }
 .centrato p{
@@ -180,42 +164,39 @@ main{
 .cella-uno{
   background-color: white;
   border-radius: 10px;
-  box-shadow: 2px 2px 10px  grey;
+  box-shadow: 0 0 3px  grey;
+  padding: 70px;
 }
-.parte1{
+.col1{
   float: left;
-  width: calc(30% - 140px);
+  width: calc(30% - 70px);
   display: inline-block;
-  margin: 40px 70px;
-}
-.parte2{
-  float: left;
-  width: calc(70% - 140px);
-  display: inline-block;
-  margin: 40px 70px;
-}
-.btm-learn{
-  margin-top: 20px;
+  margin-right: 70px;
   text-align: center;
 }
-.parte2 h3{
-  font-size: 24px;
+.col1 img{
+  height: 120px;
+  margin-bottom: 20px;
 }
-.parte2 h3, .parte2 p{
+.col2{
+  float: left;
+  width: 70%;
+  display: inline-block;
+}
+.col2 h3, .col2 p, .col2 h4, .col2 #hr-in{
   margin-bottom: 30px;
-  max-width: 70%;
+  max-width: 80%;
 }
-.parte2 h4{
+.col2 h4{
   display: inline-block;
   vertical-align: middle;
+  margin-right: 40px;
 }
-.parte2 li{
+.col2 li{
   display: inline-block;
-  text-decoration: none;
   margin-right: 15px;
-  margin-top: 30px;
 }
-.parte2 i{
+.col2 i{
   margin-right: 15px;
   color: #ff7a59;
 }
@@ -227,7 +208,7 @@ main{
   float: left;
   width: calc(90% / 3 );
   display: inline-block;
-  text-align:center; /*viene ereditato anche da h4 e p */
+  text-align:center;
   padding: 20px;
 }
 .col-cen{
@@ -236,19 +217,31 @@ main{
 .col-sx img, .col-dx img, .col-cen img{
   margin: auto;
   height: 120px;
-  object-fit: contain;
+}
+.col-sx a, .col-dx a, .col-cen a{
+  margin-top: 20px;
 }
 .cella-due img, .cella-due h3, .cella-due h4, .cella-due p, .cella-due .special-hr{
   margin-bottom: 20px;
 }
 .cella-due  li{
   text-align: left;
-  text-decoration: none;
+  list-style: none;
 }
 .cella-due  i{
   margin-right: 15px;
   color: #ff7a59;
-  /* ------------------------------- */
-
+}
+/* ------------------------------- */
+.cella-gradiente{
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  padding: 50px 0;
+}
+.cella-gradiente .central{
+  text-align: center;
+  color: white;
+}
+.cella-gradiente .central p{
+  margin: 30px 0;
 }
 /* --------------------------/MAIN------------------------ */

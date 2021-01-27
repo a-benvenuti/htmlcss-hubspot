@@ -57,6 +57,10 @@ h5{
 }
 /* -------/ relativi ai buttons------- */
 /* -------divosori vari------- */
+.special-hr{
+  max-width: 90%;
+  margin: auto;
+}
 #divisorio{
   margin: 0 8px;
 }
@@ -64,13 +68,6 @@ h5{
   display: inline-block;
   width:calc(70% - 40px);
   vertical-align: middle;
-}
-.hr-spesso{
-  border: 2px solid #33475b;
-}
-.special-hr{
-  max-width: 90%;
-  margin: auto;
 }
 /* -------/divosori vari------- */
 /* --------------------------/MIX------------------------ */
@@ -121,11 +118,15 @@ h5{
  /* -------------/menu------------- */
  /* -----------principale----------- */
  .principale{
-   height: 550px;
+   height: 585px;
    background-color: #fff3ee;
    background-image: url("../img/jumbotron.png");
-   background-size: cover;
-   background-position: 100%;
+   /*--*/
+   background-size: contain;
+   background-position: right;
+   /*--*/
+   /* background-size: cover;
+   background-position: 100%; */
    background-repeat: no-repeat;
    position: relative;
  }
@@ -144,8 +145,12 @@ h5{
  /* -----------/principale----------- */
  /* -----------separatore---------- */
 .separatore{
-  height: 80px;
+  height: 85px;
   background-color: #75dfcc;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+  position: relative;
+  top: 515px;
 }
 /* -----------/separatore---------- */
 /* --------------------------/HEADER------------------------ */
@@ -354,13 +359,45 @@ footer{
   padding: 40px 0;
   font-size: 14px;
 }
+/* ------------cella-f-sup---------- */
 .cella-f-sup .box{
   height: 260px; /*da ridurre*/
-  padding: 0 20px;
   margin-bottom: 40px;
 }
-.cella-f-sup .four i{
+.cella-f-sup .four .social-icon{
   font-size: 18px;
   margin-right: 20px;
 }
+/* ------------/cella-f-sup---------- */
+/* ------------cella-f-inf---------- */
+/* ----language------ */
+.cella-f-inf .language{
+  text-align: center;
+}
+.cella-f-inf .language li{
+  display: inline-block;
+  margin: 0 12px 15px 12px;
+}
+/* ----/language------ */
+/* ----copyright------ */
+.copyright{
+  margin-top: 20px;
+}
+.logo-f, .doc-privacy {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo-f{
+  width: 30%;
+}
+.doc-privacy{
+  width: 70%;
+  text-align: right;
+}
+.doc-privacy li{
+  display: inline-block;
+  margin-left: 20px;
+}
+/* ----/copyright------ */
+/* ------------/cella-f-inf---------- */
 /* --------------------------/FOOTER------------------------ */

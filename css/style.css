@@ -118,15 +118,12 @@ h5{
  /* -------------/menu------------- */
  /* -----------principale----------- */
  .principale{
-   height: 585px;
+   height: 600px;
+   width: 100%;
    background-color: #fff3ee;
    background-image: url("../img/jumbotron.png");
-   /*--*/
    background-size: contain;
    background-position: right;
-   /*--*/
-   /* background-size: cover;
-   background-position: 100%; */
    background-repeat: no-repeat;
    position: relative;
  }
@@ -143,16 +140,19 @@ h5{
    margin: 20px 0;
  }
  /* -----------/principale----------- */
- /* -----------separatore---------- */
-.separatore{
-  height: 85px;
+ /* -----------separatore/overlay---------- */
+.principale::after{
+  content: "";
+  display: block;
+  height: 70px;
+  width: 100%;
   background-color: #75dfcc;
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
-  position: relative;
-  top: 515px;
+  position: absolute;
+  bottom: 0;
 }
-/* -----------/separatore---------- */
+/* -----------/separatore/overlay---------- */
 /* --------------------------/HEADER------------------------ */
 /* --------------------------MAIN------------------------ */
 /* CLEARFIX */

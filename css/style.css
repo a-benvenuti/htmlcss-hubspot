@@ -9,7 +9,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: #33475b;
   background-color: #f5f8fa;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 /* --------------------------MIX------------------------ */
@@ -48,6 +48,12 @@ h5{
 .grosso{
   text-decoration: none;
   padding: 20px 32px;
+}
+#btm-foot{
+  text-decoration: none;
+  background-color: #cbd6e2;
+  color: #2d3e50;
+  border: 2px solid #cbd6e2;
 }
 /* -------/ relativi ai buttons------- */
 /* -------divosori vari------- */
@@ -294,7 +300,7 @@ h5{
   font-size: 50px;
   margin-bottom: 40px;
 }
-.cella-partners .col-uno li{
+.cella-partners .col-uno li, .cella-f-sup .box li{
   list-style: none;
   margin-bottom: 12px;
 }
@@ -304,7 +310,7 @@ h5{
   display: inline-block;
   text-align: center;
 }
-.tabella-partners .box{
+.tabella-partners .box, .cella-f-sup .box{
   width: calc(25% - 20px);
   display: inline-block;
   margin: 0 10px;
@@ -312,7 +318,6 @@ h5{
 }
 .tabella-partners .box img{
   max-width: 100%;
-  vertical-align: middle;
 }
 .tabella-partners .riga1p{
   margin-bottom: 30px;
@@ -342,3 +347,20 @@ h5{
 }
 /* ------------/cella-tre---------- */
 /* --------------------------/MAIN------------------------ */
+/* --------------------------FOOTER------------------------ */
+footer{
+  background-color: #2d3e50;
+  color:#cbd6e2;
+  padding: 40px 0;
+  font-size: 14px;
+}
+.cella-f-sup .box{
+  height: 260px; /*da ridurre*/
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+.cella-f-sup .four i{
+  font-size: 18px;
+  margin-right: 20px;
+}
+/* --------------------------/FOOTER------------------------ */

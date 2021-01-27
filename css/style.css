@@ -73,6 +73,9 @@ h5{
 /* --------------------------/MIX------------------------ */
 /* --------------------------HEADER------------------------ */
 /* -------------home------------ */
+.home{
+  border-bottom: 1px solid black;
+}
 .config{
   display: inline-block;
   margin: 18px 0;
@@ -373,6 +376,7 @@ footer{
 /* ----language------ */
 .cella-f-inf .language{
   text-align: center;
+  border-bottom: 2px solid white;
 }
 .cella-f-inf .language li{
   display: inline-block;

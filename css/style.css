@@ -22,6 +22,18 @@ h4{
 h5{
   font-size: 12px;
 }
+.config{
+  margin: 18px 0;
+}
+.txt-central{
+  text-align: center;
+}
+.in-block{
+  display: inline-block;
+}
+.v-middle{
+  vertical-align: middle;
+}
 .central{
   width: 75%;
   margin: auto;
@@ -31,11 +43,10 @@ h5{
 }
 /* -------relativi ai buttons------- */
 .pulsante{
-  display: inline-block;
   border-radius: 5px;
-  text-align: center;
   padding: 10px;
   border: 2px solid #ff7a59;
+  text-decoration: none;
 }
 .vuoto{
   background-color: white;
@@ -46,11 +57,9 @@ h5{
   color: white;
 }
 .grosso{
-  text-decoration: none;
   padding: 20px 32px;
 }
 #btm-foot{
-  text-decoration: none;
   background-color: #cbd6e2;
   color: #2d3e50;
   border: 2px solid #cbd6e2;
@@ -65,20 +74,14 @@ h5{
   margin: 0 8px;
 }
 #hr-in{
-  display: inline-block;
   width:calc(70% - 40px);
-  vertical-align: middle;
 }
 /* -------/divosori vari------- */
 /* --------------------------/MIX------------------------ */
 /* --------------------------HEADER------------------------ */
 /* -------------home------------ */
-.home{
+header .home{
   border-bottom: 1px solid black;
-}
-.config{
-  display: inline-block;
-  margin: 18px 0;
 }
 .setup-pagina{
   width:calc(60% - 15px);
@@ -88,14 +91,13 @@ h5{
   width:calc(40% - 15px);
   text-align: right;
 }
-.setup-pagina li, .setup-pagina a, .info li, .info a{
-  display: inline-block;
+.setup-pagina a, .info a, .account a{
   text-decoration: none;
+}
+.setup-pagina li, .setup-pagina a, .info li, .info a{
   color: #33475b;
 }
 .account li, .account a{
-  display: inline-block;
-  text-decoration: none;
   margin-left: 15px;
 }
 /* -------------/home------------ */
@@ -105,12 +107,10 @@ h5{
 }
 .logo{
   width: 10%;
-  vertical-align: middle;
 }
 .info{
   width: 87%;
   text-align: right;
-  vertical-align: middle;
 }
 .info i{
   margin-left: 5px;
@@ -169,7 +169,6 @@ h5{
 .centrato{
   max-width: 65%;
   margin: auto;
-  text-align: center;
 }
 .centrato .cubo{
   margin-top: 50px;
@@ -194,9 +193,7 @@ h5{
 .col1{
   float: left;
   width: calc(30% - 70px);
-  display: inline-block;
   margin-right: 70px;
-  text-align: center;
 }
 .col1 img{
   height: 120px;
@@ -205,19 +202,15 @@ h5{
 .col2{
   float: left;
   width: 70%;
-  display: inline-block;
 }
 .col2 h3, .col2 p, .col2 h4, .col2 #hr-in{
   margin-bottom: 30px;
   max-width: 80%;
 }
 .col2 h4{
-  display: inline-block;
-  vertical-align: middle;
   margin-right: 40px;
 }
 .col2 li{
-  display: inline-block;
   margin-right: 15px;
 }
 .col2 i{
@@ -232,8 +225,6 @@ h5{
 .col-sx, .col-dx, .col-cen {
   float: left;
   width: calc(90% / 3 );
-  display: inline-block;
-  text-align:center;
   padding: 20px;
 }
 .col-cen{
@@ -264,15 +255,11 @@ h5{
   padding: 50px 0;
   color: white;
 }
-.cella-gradiente .central{
-  text-align: center;
-}
 .cella-gradiente .central p{
   margin: 30px 0;
 }
 .tabella .box{
   width: 25%;
-  display: inline-block;
   padding: 25px 0;
 }
 /*relativi alla griglia della "tabella" */
@@ -286,10 +273,8 @@ h5{
 .box h2{
   margin: 15px 0;
   font-size: 50px;
-  vertical-align: middle;
 }
 .box h2 .plus{
-  vertical-align: middle;
   font-size: 30px;
 }
 /* -----------------/cella gradiente------------- */
@@ -301,7 +286,6 @@ h5{
 .cella-partners .col-uno{
   float: left;
   width: calc(30% - 120px);
-  display: inline-block;
   margin: 0 60px;
 }
 .cella-partners .col-uno h2{
@@ -315,14 +299,10 @@ h5{
 .cella-partners .col-due{
   float: left;
   width: 70%;
-  display: inline-block;
-  text-align: center;
 }
 .tabella-partners .box, .cella-f-sup .box{
   width: calc(25% - 20px);
-  display: inline-block;
   margin: 0 10px;
-  vertical-align: middle;
 }
 .tabella-partners .box img{
   max-width: 100%;
@@ -336,19 +316,17 @@ h5{
   float: left;
   width: 70%;
   margin-top: 50px;
-  display: inline-block;
 }
 .cella-tre .colonna-dx{
   float: left;
   width: 30%;
-  display: inline-block;
 }
 .cella-tre .colonna-sx h2{
   font-size: 32px;
   font-weight: 700;
 }
 .cella-tre .colonna-dx img{
-  max-width: 100%;
+  max-width: 90%;
 }
 .cella-tre .colonna-sx h2, .cella-tre .colonna-sx p, .cella-tre .colonna-sx a{
   max-width: 70%;
@@ -364,7 +342,7 @@ footer{
 }
 /* ------------cella-f-sup---------- */
 .cella-f-sup .box{
-  height: 260px; /*da ridurre*/
+  height: 260px;
   margin-bottom: 40px;
 }
 .cella-f-sup .four .social-icon{
@@ -375,21 +353,15 @@ footer{
 /* ------------cella-f-inf---------- */
 /* ----language------ */
 .cella-f-inf .language{
-  text-align: center;
   border-bottom: 2px solid white;
 }
 .cella-f-inf .language li{
-  display: inline-block;
   margin: 0 12px 15px 12px;
 }
 /* ----/language------ */
 /* ----copyright------ */
 .copyright{
   margin-top: 20px;
-}
-.logo-f, .doc-privacy {
-  display: inline-block;
-  vertical-align: middle;
 }
 .logo-f{
   width: 30%;
@@ -399,7 +371,6 @@ footer{
   text-align: right;
 }
 .doc-privacy li{
-  display: inline-block;
   margin-left: 20px;
 }
 /* ----/copyright------ */
